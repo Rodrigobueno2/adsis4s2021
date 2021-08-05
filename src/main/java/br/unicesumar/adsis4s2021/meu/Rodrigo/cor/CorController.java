@@ -21,7 +21,7 @@ public class CorController {
     	cores.add(new Cor("Verde","Vrd"));
     }
     
-    //
+    
     @GetMapping
     public List<Cor> getCores() {
 		return this.cores;
