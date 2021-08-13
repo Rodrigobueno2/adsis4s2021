@@ -24,7 +24,7 @@ public class MecadoriaController {
 		return mercadorias;
 	}
     
-	//
+	//,
 	@GetMapping("/{id}")
 	public Mercadoria mercadoria(@PathVariable("id") int id) {
 		for(Mercadoria m : mercadorias) {
